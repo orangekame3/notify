@@ -1,0 +1,43 @@
+name: 🐛Bug Report
+description: Create a report to help us improve 🤔.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ If you do not respect this template, your issue will be closed
+        ⚠️ Make sure to browse the opened and closed issues before submitting your issue
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What is the current behavior?
+      description: Please describe the current behavior.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Information
+      description: |
+        examples:
+          - **Version**: 0.25.0
+          - **Operating system**: Ubuntu 20.04
+      value: |
+          - Version:
+          - Operating System:
+      render: Markdown
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce the problem
+      description: Please provide the steps to reproduce the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: exptected
+    attributes:
+      label: What is the expected behavior?
+      description: Please describe the expected behavior.
+    validations:
+      required: false
