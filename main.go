@@ -21,7 +21,7 @@ THE SOFTWARE.
 */
 package main
 
-import "github.com/spf13/notify/cmd"
+import "github.com/orangekame3/notify/cmd"
 
 func main() {
 	cmd.Execute()

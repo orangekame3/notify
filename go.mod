@@ -1,4 +1,4 @@
-module github.com/spf13/notify
+module github.com/orangekame3/notify
 
 go 1.20
 
